@@ -1,0 +1,83 @@
+object setup: Tsetup
+  Left = 271
+  Height = 240
+  Top = 286
+  Width = 320
+  BorderStyle = bsNone
+  Caption = 'setup'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '1.2.4.0'
+  object SpeedButton1: TSpeedButton
+    Left = 157
+    Height = 51
+    Top = 176
+    Width = 159
+    Caption = 'Shut-Down'
+    OnClick = SpeedButton1Click
+  end
+  object SpeedButton2: TSpeedButton
+    Left = 8
+    Height = 51
+    Top = 176
+    Width = 144
+    Caption = 'Zurück'
+    OnClick = SpeedButton2Click
+  end
+  object SpeedButton3: TSpeedButton
+    Left = 8
+    Height = 58
+    Top = 6
+    Width = 144
+    Caption = 'Cursor ON'
+    OnClick = SpeedButton3Click
+  end
+  object SpeedButton4: TSpeedButton
+    Left = 8
+    Height = 54
+    Top = 67
+    Width = 144
+    Caption = 'Lautstärke'
+    OnClick = SpeedButton4Click
+  end
+  object SpeedButton5: TSpeedButton
+    Left = 157
+    Height = 56
+    Top = 8
+    Width = 159
+    Caption = 'Zeit Anzeige ON'
+    OnClick = SpeedButton5Click
+  end
+  object SpeedButton6: TSpeedButton
+    Left = 159
+    Height = 49
+    Top = 68
+    Width = 152
+    Caption = 'Bild Dunkel'
+    OnClick = SpeedButton6Click
+  end
+  object SpeedButton7: TSpeedButton
+    Left = 8
+    Height = 48
+    Top = 124
+    Width = 140
+    Caption = 'Tastatur'
+    OnClick = SpeedButton7Click
+  end
+  object Label1: TLabel
+    Left = 160
+    Height = 15
+    Top = 144
+    Width = 34
+    Caption = 'Label1'
+    ParentColor = False
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 50
+    OnTimer = Timer1Timer
+    left = 32
+    top = 29
+  end
+end

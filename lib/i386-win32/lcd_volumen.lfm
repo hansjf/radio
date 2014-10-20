@@ -1,0 +1,77 @@
+object Lautstaerke: TLautstaerke
+  Left = 260
+  Height = 240
+  Top = 169
+  Width = 320
+  BorderStyle = bsNone
+  Caption = 'Lautstaerke'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '1.0.12.0'
+  object SpeedButton1: TSpeedButton
+    Left = 8
+    Height = 46
+    Top = 8
+    Width = 104
+    Caption = 'Stumm'
+    NumGlyphs = 0
+    OnClick = SpeedButton1Click
+  end
+  object SpeedButton2: TSpeedButton
+    Left = 96
+    Height = 46
+    Top = 184
+    Width = 111
+    Caption = 'Zurück'
+    NumGlyphs = 0
+    OnClick = SpeedButton2Click
+  end
+  object SpeedButton3: TSpeedButton
+    Left = 120
+    Height = 45
+    Top = 9
+    Width = 87
+    Caption = '85%'
+    NumGlyphs = 0
+    OnClick = SpeedButton3Click
+  end
+  object SpeedButton4: TSpeedButton
+    Left = 216
+    Height = 46
+    Top = 8
+    Width = 96
+    Caption = 'Voll'
+    NumGlyphs = 0
+    OnClick = SpeedButton4Click
+  end
+  object TrackBar1: TTrackBar
+    Left = 24
+    Height = 44
+    Top = 68
+    Width = 269
+    Max = 100
+    OnChange = TrackBar1Change
+    Position = 0
+    ShowSelRange = False
+    TickStyle = tsNone
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 96
+    Height = 22
+    Top = 113
+    Width = 95
+    TabOrder = 1
+    Text = '70'
+  end
+  object Label1: TLabel
+    Left = 29
+    Height = 17
+    Top = 115
+    Width = 53
+    Caption = 'Volume:'
+    ParentColor = False
+  end
+end

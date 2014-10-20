@@ -1,0 +1,13 @@
+unit lcd_konstanten;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils;
+
+implementation
+
+end.
+

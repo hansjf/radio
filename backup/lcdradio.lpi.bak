@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <MainUnit Value="0"/>
+      <Title Value="lcdradio"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1" Active="Default">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="15">
+      <Unit0>
+        <Filename Value="lcdradio.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="lcdradio"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="19"/>
+        <UsageCount Value="52"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="lcd_radio.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Radio"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="lcd_radio"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="298"/>
+        <CursorPos X="1" Y="324"/>
+        <UsageCount Value="52"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="unit2.pas"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="11" Y="16"/>
+        <UsageCount Value="26"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="lcd_sender_unit3.pas"/>
+        <ComponentName Value="Form3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="lcd_sender_unit3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="104"/>
+        <CursorPos X="45" Y="113"/>
+        <UsageCount Value="33"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="lcd_tools.pas"/>
+        <UnitName Value="lcd_tools"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="166"/>
+        <CursorPos X="18" Y="179"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="unit1-neu.pas"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="81"/>
+        <CursorPos X="35" Y="97"/>
+        <UsageCount Value="12"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="lcd_setup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="setup"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="lcd_setup"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="91"/>
+        <CursorPos X="12" Y="108"/>
+        <UsageCount Value="43"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="lcd_sender.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Senderwahl"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="lcd_sender"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="141"/>
+        <CursorPos X="47" Y="155"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="lcd_volumen.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Lautstaerke"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="lcd_volumen"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="31"/>
+        <CursorPos X="1" Y="31"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="lcd_volumen_unit1.lfm"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="lcdtastatur.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Tastatur"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="lcdtastatur"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="21"/>
+        <CursorPos X="81" Y="21"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="/Developer/lazarus/lcl/include/control.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3236"/>
+        <CursorPos X="1" Y="3246"/>
+        <UsageCount Value="12"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="lcd_musik.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Musik"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="lcd_musik"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="194"/>
+        <CursorPos X="23" Y="486"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="unix.pas"/>
+        <UnitName Value="unix"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="10" Y="8"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="lcd_var.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="lcd_var"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="5" Y="11"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit14>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="296" Column="1" TopLine="284"/>
+      </Position1>
+      <Position2>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="297" Column="56" TopLine="284"/>
+      </Position2>
+      <Position3>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="294" Column="1" TopLine="284"/>
+      </Position3>
+      <Position4>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="298" Column="1" TopLine="295"/>
+      </Position4>
+      <Position5>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="307" Column="1" TopLine="295"/>
+      </Position5>
+      <Position6>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="322" Column="35" TopLine="305"/>
+      </Position6>
+      <Position7>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="314" Column="1" TopLine="305"/>
+      </Position7>
+      <Position8>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="318" Column="1" TopLine="305"/>
+      </Position8>
+      <Position9>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="321" Column="1" TopLine="305"/>
+      </Position9>
+      <Position10>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="322" Column="1" TopLine="305"/>
+      </Position10>
+      <Position11>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="327" Column="1" TopLine="307"/>
+      </Position11>
+      <Position12>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="329" Column="1" TopLine="309"/>
+      </Position12>
+      <Position13>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="308" Column="6" TopLine="303"/>
+      </Position13>
+      <Position14>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="315" Column="20" TopLine="303"/>
+      </Position14>
+      <Position15>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="318" Column="68" TopLine="303"/>
+      </Position15>
+      <Position16>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="315" Column="62" TopLine="306"/>
+      </Position16>
+      <Position17>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="316" Column="17" TopLine="294"/>
+      </Position17>
+      <Position18>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="317" Column="1" TopLine="297"/>
+      </Position18>
+      <Position19>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="320" Column="1" TopLine="300"/>
+      </Position19>
+      <Position20>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="321" Column="1" TopLine="301"/>
+      </Position20>
+      <Position21>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="324" Column="1" TopLine="304"/>
+      </Position21>
+      <Position22>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="326" Column="1" TopLine="306"/>
+      </Position22>
+      <Position23>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="327" Column="1" TopLine="307"/>
+      </Position23>
+      <Position24>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="313" Column="16" TopLine="293"/>
+      </Position24>
+      <Position25>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="310" Column="7" TopLine="294"/>
+      </Position25>
+      <Position26>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="314" Column="1" TopLine="294"/>
+      </Position26>
+      <Position27>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="315" Column="1" TopLine="295"/>
+      </Position27>
+      <Position28>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="317" Column="1" TopLine="297"/>
+      </Position28>
+      <Position29>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="320" Column="1" TopLine="300"/>
+      </Position29>
+      <Position30>
+        <Filename Value="lcd_radio.pas"/>
+        <Caret Line="321" Column="1" TopLine="301"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="lcdradio"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="2">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="lcd_radio.pas"/>
+        <Line Value="317"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="lcd_radio.pas"/>
+        <Line Value="314"/>
+      </Item2>
+    </BreakPoints>
+    <Watches Count="6">
+      <Item1>
+        <Expression Value="Zeile"/>
+      </Item1>
+      <Item2>
+        <Expression Value="tempstr"/>
+      </Item2>
+      <Item3>
+        <Expression Value="posit"/>
+      </Item3>
+      <Item4>
+        <Expression Value="Actor_str"/>
+      </Item4>
+      <Item5>
+        <Expression Value="Titel_str"/>
+      </Item5>
+      <Item6>
+        <Expression Value="Sender_str"/>
+      </Item6>
+    </Watches>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>
